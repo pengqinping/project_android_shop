@@ -1,0 +1,95 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="Widget" />
+
+    <style name="shopActionBar" parent="@android:style/Theme.Holo.Light"></style>
+
+    <style name="my_actionbar_style" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@drawable/action_bar</item>
+    </style>
+    <style name="commonbg" parent="@android:style/Theme.Holo.Light"> 
+    	<item name="android:windowBackground">@drawable/bg</item> 
+	</style>
+    <!-- Base theme for the menu drawer. -->
+    <style name="Widget.MenuDrawer">
+        <item name="mdMenuBackground">@android:color/transparent</item>
+        <item name="mdContentBackground">?android:attr/windowBackground</item>
+        <item name="mdDrawerOpenUpContentDescription">@string/md__drawerOpenIndicatorDesc</item>
+        <item name="mdDrawerClosedUpContentDescription">@string/md__drawerClosedIndicatorDesc</item>
+    </style>
+
+    <style name="baseTopTheme">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/lightwhite</item>
+    </style>
+
+    <style name="wait_dialog_style" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="AudioFileInfoOverlayText">
+        <item name="android:shadowColor">#4d4d4d</item>
+        <item name="android:shadowDx">6</item>
+        <item name="android:shadowDy">6</item>
+        <item name="android:shadowRadius">5</item>
+    </style>
+
+    <style name="productPrice_list_style">
+        <item name="android:textSize">@dimen/productPrice_list_size</item>
+        <item name="android:textColor">@color/productPrice_red</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="productName_list_style">
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/productPrice_list_size</item>
+    </style>
+
+    <style name="productOther_list_style">
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textSize">@dimen/productcontent_list_size</item>
+    </style>
+
+    <style name="action_model_title_style">
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/actionModeTitle</item>
+    </style>
+
+    <style name="setting_title_style">
+        <item name="android:textSize">20sp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/seletor_setting_text_seleted</item>
+    </style>
+    
+    <style name="collect_bg_style">
+        <item name="android:listSelector">@android:color/transparent</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:cacheColorHint">#00000000</item>
+    </style>
+    <style name="gridview_bg_style" parent="collect_bg_style">
+        
+    </style>
+    
+    <style name="list_bg_style" parent="collect_bg_style">
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">0dip</item>
+    </style>
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:viewFlow="http://schemas.android.com/apk/res/com.twp.shopping"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/color1" >
+
+    <com.twp.shopping.ui.ads.ViewFlow
+        android:id="@+id/splashViewFlow"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        viewFlow:sidebuffer="3" >
+    </com.twp.shopping.ui.ads.ViewFlow>
+
+    <com.twp.shopping.ui.ads.CircleFlowIndicator
+        android:id="@+id/splashCircleInicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="30dip"
+        android:padding="10dip"
+        viewFlow:fadeOut="0"
+        viewFlow:inactiveType="fill"
+        viewFlow:radius="12dp" >
+    </com.twp.shopping.ui.ads.CircleFlowIndicator>
+
+    <Button
+        android:id="@+id/enterMain"
+        android:layout_width="200dip"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="90dip"
+        android:text="@string/enterMain" />
+
+</FrameLayout>

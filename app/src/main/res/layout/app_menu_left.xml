@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/menuHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dip"
+        android:background="@drawable/seletor_menu_bg"
+        android:clickable="true"
+        android:drawableLeft="@drawable/seletor_tab_home"
+        android:drawablePadding="10dip"
+        android:gravity="center|left"
+        android:padding="10dip"
+        android:text="@string/tab_home" />
+
+    <TextView
+        android:id="@+id/menuSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dip"
+        android:background="@drawable/seletor_menu_bg"
+        android:clickable="true"
+        android:drawableLeft="@drawable/seletor_tab_search"
+        android:drawablePadding="10dip"
+        android:gravity="center|left"
+        android:padding="10dip"
+        android:text="@string/tab_search" />
+
+    <TextView
+        android:id="@+id/menuCollet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dip"
+        android:background="@drawable/seletor_menu_bg"
+        android:clickable="true"
+        android:drawableLeft="@drawable/seletor_tab_collect"
+        android:drawablePadding="10dip"
+        android:gravity="center|left"
+        android:padding="10dip"
+        android:text="@string/tab_collect" />
+
+    <TextView
+        android:id="@+id/menuSetting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dip"
+        android:background="@drawable/seletor_menu_bg"
+        android:clickable="true"
+        android:drawableLeft="@drawable/seletor_tab_more"
+        android:drawablePadding="10dip"
+        android:gravity="center|left"
+        android:padding="10dip"
+        android:text="@string/tab_setting" />
+
+</LinearLayout>

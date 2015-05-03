@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:background="@drawable/seletor_list_background" >
+
+    <FrameLayout
+        android:id="@+id/categoryTitleIconFrameLayout"
+        android:layout_width="66dip"
+        android:layout_height="66dip"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="6dp" >
+
+        <ImageView
+            android:id="@+id/imgSearchListViewIcon"
+            android:layout_width="57dip"
+            android:layout_height="57dip"
+            android:layout_gravity="center"
+            android:src="@drawable/default_96_96" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/categoryTitleIconFrameLayout"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvWareInfoName"
+            style="@style/productName_list_style"
+            android:layout_width="wrap_content"
+            android:textColor="@color/seletor_text_color"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvWareInfoprice"
+            style="@style/productPrice_list_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>

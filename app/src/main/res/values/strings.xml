@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">Shopping</string>
+    <string name="tab_home">首页</string>
+    <string name="tab_search">搜索</string>
+    <string name="tab_collect">收藏</string>
+    <string name="tab_setting">设置</string>
+
+    <string-array name="menu_list">
+        <item>@string/tab_home</item>
+        <item>@string/tab_search</item>
+        <item>@string/tab_collect</item>
+        <item>@string/tab_setting</item>
+    </string-array>
+    <string-array name="jazzy_effects">
+        <item>Standard</item>
+        <item>Tablet</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>FlipVertical</item>
+        <item>FlipHorizontal</item>
+        <item>Stack</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>Accordion</item>
+    </string-array>
+
+    <!-- 刷新列表 -->
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_release_label">松开后刷新</string>
+    <string name="pull_to_refresh_refreshing_label">刷新\u2026</string>
+    <string name="pull_to_refresh_footer_release_label">松开后加载</string>
+    <string name="pull_to_refresh_footer_pull_label">上拉加载更多</string>
+    <string name="pull_to_refresh_footer_refreshing_label">加载中\u2026</string>
+
+    <!-- 网络框架 -->
+    <string name="noNetWork">未检测网络连接</string>
+    <string name="goSettingNetWork">设置网络</string>
+	<string name="currentNetWork">当前网络模式:</string>
+	    
+    <!-- 没有数据 -->
+    <string name="noDataRefresh">没有数据刷新试试</string>
+
+    <!-- 项目默认数据 -->
+    <string name="brandThemes">品牌主题</string>
+    <string name="storeRecommend">店铺推荐</string>
+    <string name="selectionActivities">优选活动</string>
+    <string name="recommendation">精品推荐</string>
+    <string name="wait_please">正在加载.....</string>
+    <string name="listLoadingError">加载失败</string>
+    <string name="listLoadingDataEmpty">空空如也</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="xlistview_footer_hint_nomoredata">没有更多数据</string>
+
+    <!-- 搜索 -->
+    <string name="search_key_not_null">搜索关键字不能为空</string>
+
+    <!-- 排序菜单 -->
+    <string name="ware_sort_sell">销量</string>
+    <string name="ware_sort_price_down">价格↓</string>
+    <string name="ware_sort_price_up">价格↑</string>
+    <string name="ware_sort_feed_back">评论</string>
+    <string name="ware_sort_positive_feedback">好评</string>
+    <string name="buy">购买</string>
+
+    <!-- menu string -->
+    <string name="selectAll">全选</string>
+    <string name="disSelectAll">取消</string>
+    <string name="seletedCount">已选择 %d 条</string>
+    <string name="feedback">反馈</string>
+    <string name="aboutShopping">关于应用</string>
+    <string name="clearImageCache">清除缓存</string>
+    <string name="enterTitle">输入反馈标题</string>
+    <string name="enterContent">输入反馈内容,至少10个字符</string>
+    <string name="back">返回</string>
+    <string name="sendMail">发送</string>
+    <string name="md__drawerOpenIndicatorDesc">Close drawer</string>
+    <string name="md__drawerClosedIndicatorDesc">Open drawer</string>
+    <string name="setViewpagerChageMode">设置页面切换模式</string>
+    <string name="enterMain">开始体验</string>
+    <string name="splash">使用引导</string>
+    <string name="nodate">暂时没有收藏赶紧去添加吧</string>
+
+</resources>

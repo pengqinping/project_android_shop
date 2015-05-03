@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:viewFlow="http://schemas.android.com/apk/res/com.twp.shopping"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="120dp" >
+
+        <com.twp.shopping.ui.ads.ViewFlow
+            android:id="@+id/homeAdsViewflow"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            viewFlow:sidebuffer="3" >
+        </com.twp.shopping.ui.ads.ViewFlow>
+
+        <com.twp.shopping.ui.ads.CircleFlowIndicator
+            android:id="@+id/homeAdsViewflowCircleInicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:padding="10dip"
+            viewFlow:fadeOut="1000"
+            viewFlow:inactiveType="fill" >
+        </com.twp.shopping.ui.ads.CircleFlowIndicator>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:drawableLeft="@drawable/messagescenter_notice"
+            android:drawablePadding="5dip"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="5dip"
+            android:text="促销专场"
+            android:textColor="@android:color/white"
+            android:textSize="21sp" />
+
+        <GridView
+            android:id="@+id/homePromotionGridView"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:horizontalSpacing="1dp"
+            style="@style/gridview_bg_style"
+            android:numColumns="3"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:scrollingCache="false" >
+        </GridView>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menuWareSortSell"
+        android:showAsAction="always"
+        android:title="@string/ware_sort_sell"/>
+    <item
+        android:id="@+id/menuWareSortPrice"
+        android:showAsAction="always"
+        android:title="@string/ware_sort_price_down"/>
+    <item
+        android:id="@+id/menuWareSortFeedBack"
+        android:showAsAction="always"
+        android:title="@string/ware_sort_feed_back"/>
+    <item
+        android:id="@+id/menuWareSortPositiveFeedBack"
+        android:showAsAction="always"
+        android:title="@string/ware_sort_positive_feedback"/>
+
+</menu>

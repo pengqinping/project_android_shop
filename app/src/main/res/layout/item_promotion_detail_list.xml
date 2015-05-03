@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dip"
+    android:background="@drawable/seletor_list_background"
+    android:orientation="vertical"
+    android:padding="@dimen/product_list_item_padding" >
+
+    <ImageView
+        android:id="@+id/imgPromotionListDetail"
+        android:layout_width="match_parent"
+        android:layout_height="150dip"
+        android:scaleType="fitXY" />
+    <!-- promotion text detail. -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/product_list_item_padding" >
+
+        <TextView
+            android:id="@+id/tvPromotionTitle"
+            style="@style/productName_list_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/seletor_text_color" />
+
+        <TextView
+            android:id="@+id/tvPromotionContent"
+            style="@style/productOther_list_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvPromotionTitle"
+            android:textColor="@color/seletor_text_color" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvNoNetWork"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/noNetWork"
+        android:layout_centerHorizontal="true"
+          android:layout_centerVertical="true"
+        android:gravity="center"
+        android:drawablePadding="5dp"
+        android:textColor="@android:color/white"
+        android:drawableTop="@drawable/icon_nowifi">
+    </TextView>
+    
+    <Button  
+         android:id="@+id/btnNoNetWork"
+        android:layout_below="@id/tvNoNetWork"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dip"
+        android:text="@string/goSettingNetWork"
+        android:textColor="@android:color/white"
+        android:background="@drawable/selector_button_bg"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip"
+        android:paddingTop="3dip"
+        android:paddingBottom="3dip"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
